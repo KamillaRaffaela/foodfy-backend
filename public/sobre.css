@@ -1,0 +1,88 @@
+.mycontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1, h2, h3, p, h4,h5,h6, html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo-texto {
+ width: 80px;
+}
+
+
+
+.block-content{
+    max-width: 978px;
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.selection-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title-content{
+    color:#111111;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.primeiro-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    font-size:  14px;
+    color: #777777;
+    font-weight: 500;
+}
+.segundo-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    font-size:  14px;
+    color: #777777;
+    font-weight: 500;
+}
+
+.links a {
+    text-decoration: none;
+    color: #111111;
+
+}
+
+.links {
+    max-width: 978px;
+    width: 100%;
+    height: 50px;
+    display:flex;
+    align-items:center;
+}
+
+.link-menu {
+    margin-left:50px;
+}
+
+footer{
+    background: #c3c3c3;   
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   footer p{
+       font-size: 14px;
+       font-family: Roboto;
+       color:rgb(102, 102, 102);
+   }

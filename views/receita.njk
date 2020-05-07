@@ -1,0 +1,40 @@
+{% extends "layout.njk" %}
+{% block content %}
+    <link rel="stylesheet" href="receita.css">
+    <div class="mycontainer">
+        <div class="selection-favorite">
+            <div class="block-favorites">
+                <h1 class="title-favorite">Receitas</h1>
+                <div class="favorite-itens">
+                    {% for receita in receitas%}
+                    <div class="iten-favorite" onclick="openModal('{{receita.img}}', '{{receita.nome}}', '{{receita.autor}}');">
+                        <img class="img-favorite-card" src="{{receita.img}}" alt="hamburguer">
+                        <h4 class="name-product">{{receita.nome}}</h4>
+                        <h5 class="creator">{{receita.autor}}</h5>
+                    </div>
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Todos os direitor reservados. Foodfy Receitas</p>
+    </footer>
+
+    <div class="modal-overlay hidden">
+        <div class="modal"> 
+            <div class="modal-content" id="modal-content">
+                <div class="container-modal">
+                    <i class="close-modal material-icons" onclick="closeModal()">close</i>
+                    <div class="iten-favorite">
+                        <img class="img-favorite-card" src="./imagem/asinhas.png" alt="doce">
+                        <h4 class="name-product">Asinha de frango ao barbecue</h4>
+                        <h5 class="creator">por Vania Steroski</h5>
+                    </div>
+                </div>
+            </div>
+        </div>        
+   </div>
+   <script src="script.js"></script>
+{% endblock %}

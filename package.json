@@ -1,0 +1,25 @@
+{
+  "name": "foodfy-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamillaRaffaela/foodfy-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamillaRaffaela/foodfy-backend/issues"
+  },
+  "homepage": "https://github.com/KamillaRaffaela/foodfy-backend#readme"
+}
